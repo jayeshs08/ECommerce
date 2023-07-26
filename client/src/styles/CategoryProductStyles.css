@@ -1,0 +1,35 @@
+.category {
+    flex-wrap: wrap;
+    margin-top: 80px !important;
+  }
+  .category .card {
+    background-color: #ed5e5e;
+    width: 18rem;
+  }
+  .category .card-name-price {
+    color:white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .category .card-price {
+    color: maroon;
+    font-weight: bold;
+  }
+  .category button {
+    background-color:white;
+    width: 100%;
+  }
+  
+  .category .card-text {
+    color:white;
+  }
+  
+  .category .card img:hover {
+    transform: scale(0.9);
+  }
+  
+  .category .card-img-top {
+    height: 300px !important;
+  }
